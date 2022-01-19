@@ -9,7 +9,7 @@ However, psycopg2 does not provide any mechanisms for catching errors.
 
 ### Installation
 ```bash
-pip install psycopg2_error_handler
+pip install psycopg2-error-handler
 ```
 
 ### Usage
