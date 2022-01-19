@@ -5,7 +5,7 @@ setup(
     install_requires=[
         "psycopg-binary >= 3.0",
     ],
-    version='0.0.1',
+    version='0.0.2',
     description='Psycopg2 Error Handler',
     author='Alexander Lopatin',
     license='MIT',
