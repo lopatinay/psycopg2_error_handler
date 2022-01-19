@@ -30,4 +30,5 @@ def catch(err):
 
     if pgcode:
         exception = sqlstate_errors.get(pgcode, err)
-    raise exception(err.pgerror)
+        raise exception(err.pgerror)
+    raise exception
